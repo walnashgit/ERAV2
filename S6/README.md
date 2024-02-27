@@ -145,6 +145,8 @@ similarly
     
     dE_total/dw4 = ((a_o2 - t2) * a_o2 * (1 - a_o2) * w8 + (a_o1 - t1) * a_o1 * (1 - a_o1) * w6) * a_h2 * (1 - a_h2) * i2
 
+    dE_total/dw5  = (a_o1 - t1) * a_o1 * (1-a_o1) * a_h1
+
     dE_total/dw6 =  (a_o1 - t1) * a_o1 * (1-a_o1) * a_h2	
     
     dE_total/dw7 = (a_o2 - t2) * a_o2 * (1-a_o2) * a_h1
