@@ -7,7 +7,7 @@ This folder contains 2 files:
 
 
 1.   [S7_model_3.ipynb](https://github.com/walnashgit/ERAV2/blob/main/S7/model3/S7_model_3.ipynb)
-2.   [model_3.py](https://github.com/walnashgit/ERAV2/blob/main/S7/model2/model_3.py)
+2.   [model_3.py](https://github.com/walnashgit/ERAV2/blob/main/S7/model3/model_3.py)
 
 The .ipynb file contains the code for data, transform, training and testing the model.<br>
 The model_3.py file contains the model.
