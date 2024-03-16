@@ -10,7 +10,7 @@ This folder contains 2 files:
 2.   [model_1.py](https://github.com/walnashgit/ERAV2/blob/main/S7/model1/model_1.py)
 
 The .ipynb file contains the code for data, transform, training and testing the model.<br>
-The model_1.py file contains the basic model. The n
+The model_1.py file contains the basic model.
 
 
 ## Target:
