@@ -21,7 +21,6 @@ The models aims to classify the images in CIFAR10 dataset. The aim of the models
 
 ## Batch normalization
 
-
 The model in the S8CIFAR_BN.ipynb is a convolution network that uses Batch Normalization. <br>
 **Total Parms: 48096** <br>
 **Training accuracy: 70.82%** <br>
@@ -32,4 +31,32 @@ The model in the S8CIFAR_BN.ipynb is a convolution network that uses Batch Norma
 
 ### Missclassified images
 <img width="566" alt="BatchNormMissClassified" src="https://github.com/walnashgit/ERAV2/assets/73463300/d89944d1-e98f-4c0d-a249-4e43ee9acbd5">
+
+## Group normalization
+
+The model in the S8CIFAR_GN.ipynb is a convolution network that uses Group Normalization. <br>
+**Total Parms: 48096** <br>
+**Training accuracy: 71.01%** <br>
+**Test accuracy: 73.08%**
+
+### Training and Test Graphs
+<img width="921" alt="image" src="https://github.com/walnashgit/ERAV2/assets/73463300/3fdd1878-36f0-40fb-87a6-1a636490088a">
+
+### Missclassified images
+<img width="563" alt="image" src="https://github.com/walnashgit/ERAV2/assets/73463300/13fbee57-2910-4d95-a0cd-f7fcecbe130f">
+
+## Layer normalization
+
+The model in the S8CIFAR_LN.ipynb is a convolution network that uses Layer Normalization. <br>
+**Total Parms: 111,568** <br>
+**Training accuracy: 52.05%** <br>
+**Test accuracy: 59.44%**
+
+### Training and Test Graphs
+<img width="918" alt="image" src="https://github.com/walnashgit/ERAV2/assets/73463300/2516fc7d-57a0-422c-9095-c59ce0a46f87">
+
+### Missclassified images
+<img width="564" alt="image" src="https://github.com/walnashgit/ERAV2/assets/73463300/5acc03ea-a685-4562-b016-001b71ca95ce">
+
+## Observation
 
