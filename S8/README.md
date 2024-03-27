@@ -60,3 +60,6 @@ The model in the S8CIFAR_LN.ipynb is a convolution network that uses Layer Norma
 
 ## Observation
 
+1.  Based on the implementation here, Batch Normalization and Group Normalization added similar number of params.
+2.  The number of param added by Layer Normalization is large.
+3.  accuracy from BN and GN is better than LN.
