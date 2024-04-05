@@ -60,7 +60,7 @@ def test(model, device, test_loader, epoch, EPOCHS, collect_images, criterion):
             output = model(data)
             # print('- output.shape:', output.shape) # torch.Size([128, 10])
 
-            test_loss += criterion(output, target, reduction='sum').item()
+            test_loss += criterion(output, target).item()
 
             # test_loss += F.cross_entropy(output, target, reduction='sum').item()  # sum up batch loss
 
