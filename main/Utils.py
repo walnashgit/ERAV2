@@ -82,13 +82,13 @@ class CIFAR10ResNetUtil:
         lr_finder = LRFinder(model, optimizer, criterion, device=device)
         lr_finder.range_test(train_loader, end_lr=100, num_iter=100, step_mode="exp")
         lr_finder.reset()
-        lr_finder.plot()
+        return lr_finder.plot()[-1]
 
     def find_lr_leslie_smith(self, model, device, train_loader, test_loader, criterion, optimizer):
         lr_finder = LRFinder(model, optimizer, criterion, device=device)
         lr_finder.range_test(train_loader, val_loader=test_loader, end_lr=100, num_iter=100, step_mode="exp")
-        lr_finder.plot(log_lr=True)
         lr_finder.reset()
+        return lr_finder.plot(log_lr=True)[-1]
 
     def start_training_testing(self, epochs, collect_images, model, device, train_loader,
                                test_loader, optimizer, criterion, scheduler=None):
